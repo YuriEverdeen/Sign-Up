@@ -1,0 +1,120 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(cat.png); 
+    background-size:100% auto ;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 110px; 
+    height: auto;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px; 
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #e24eb1;
+    font-size: 30px;
+  }
+
+  h1 {
+  text-shadow: 2px 2px;
+}
+  p {
+    text-indent: 48px;
+    text-align: justify;
+    letter-spacing: 3px;
+    
+  }
+
+.social-icons img {
+    width: 40px;
+    margin: 10px;
+}
+
+.signup-form {
+    background-color: rgba(245, 179, 206, 0.8);
+    padding: 20px;
+    border-radius: 11px;
+    max-width: 310px;
+}
+
+.signup-form h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.signup-form p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox label {
+    margin-left: 5px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons .cancel {
+    background-color: rgb(202, 67, 67);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons .signup {
+    background-color: rgb(85, 236, 85);
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    opacity: 0.8;
+}
